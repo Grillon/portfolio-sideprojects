@@ -21,7 +21,7 @@
         "Limites des API publiques",
         "Nécessité de persistance utilisateur locale"
       ],
-      "visuel": "https://apprensemble.github.io/wallex-site/Screenshot_20250415_212937.png"
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_wallex.png"
     },
     {
       "titre": "EasyLandingWeb",
@@ -39,10 +39,10 @@
         "Mock d’IA narrative en JS",
         "Limites UX de l'automatisation naïve"
       ],
-      "visuel": "https://grillon.github.io/easylandingweb-gallery/simple_sombre_s.png",
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_simple_sombre_s.png",
       "files": [
         {
-          "url": "https://www.youtube.com/embed/SrK8LoDJzEc\"",
+          "url": "https://www.youtube.com/embed/SrK8LoDJzEc",
           "label": "Pitch de présentation",
           "type": "youtube"
         },
@@ -74,7 +74,7 @@
         "Confrontation avec le vrai marché(le web3 est très mal vu par une bonne partie de la communauté gaming)",
         "Un marché qui semble fermé ne l'est pas tant que cela car il y a toujours des niches interessantes"
       ],
-      "visuel": "",
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_Thugz_plugin.png",
       "files": [
         {
           "url": "https://youtu.be/hQRs0zWUJMM?si=2oiO-kgQjwzEU5SX",
@@ -155,8 +155,19 @@
           "url": "https://framagit.org/apprensemble/connected_magnet_webapp",
           "label": "gitlab interface connected magnet",
           "type": "link"
+        },
+        {
+          "url": "https://github.com/apprensemble/impression3D/blob/master/magnet/Boite.stl",
+          "label": "boitier 3D OpenSCAD",
+          "type": "image"
+        },
+        {
+          "url": "https://github.com/apprensemble/impression3D/blob/master/magnet/Couvercle.stl",
+          "label": "Couvercle 3D OpenSCAD",
+          "type": "image"
         }
-      ]
+      ],
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/connected_magnet.png"
     },
     {
       "titre": "Démos live et présentations libres (2017–2022)",
@@ -186,7 +197,8 @@
           "label": "Montpel'libre",
           "type": "link"
         }
-      ]
+      ],
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/bricolotech.jpg"
     }
   ],
   "documents": [
