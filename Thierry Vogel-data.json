@@ -1,0 +1,214 @@
+{
+  "nom": "Thierry Vogel",
+  "about": "Fiabilisation d'infrastructures, DevOps, CI/CD, plateformes cloud.",
+  "aboutl": "J’aide à fiabiliser les infrastructures, automatiser les déploiements et fluidifier les échanges entre les équipes produit et infra.\n\nMon parcours d’administrateur système m’a donné une vision transversale des environnements techniques : réseau, sécurité, stockage, données, automatisation.\n\nAujourd’hui, je m’appuie sur cette base pour contribuer, documenter, transmettre et explorer ce qui vient, entre open source, cloud décentralisé et IA.\n\nJ’avance en artisan curieux, avec le goût du concret et des idées à partager.",
+  "galerie": [],
+  "projets": [
+    {
+      "titre": "WallEx",
+      "type": "MVP personnel",
+      "annee": "2024",
+      "stack": "FastAPI, Dash, Plotly, Moralis, Zerion",
+      "role": "Concepteur fullstack",
+      "probleme": "Visualiser simplement plusieurs wallets crypto avec PnL.",
+      "solution": [
+        "Agrégation API Zerion + Moralis",
+        "Interface Dash interactive",
+        "Tagging et filtrage d’actifs",
+        "Calcul de PnL par token"
+      ],
+      "apprentissage": [
+        "Limites des API publiques",
+        "Nécessité de persistance utilisateur locale"
+      ],
+      "visuel": "https://apprensemble.github.io/wallex-site/Screenshot_20250415_212937.png"
+    },
+    {
+      "titre": "EasyLandingWeb",
+      "type": "Générateur de landing page",
+      "annee": "2025",
+      "stack": "Bolt.new, Next.js, JavaScript",
+      "role": "Concepteur et dev",
+      "probleme": "Créer rapidement une landing page pour petits projets (ex : resto).",
+      "solution": [
+        "Template RESTO prêt à l’emploi",
+        "Pré-remplissage intelligent",
+        "Badge World's Largest Hackathon intégré"
+      ],
+      "apprentissage": [
+        "Mock d’IA narrative en JS",
+        "Limites UX de l'automatisation naïve"
+      ],
+      "visuel": "https://grillon.github.io/easylandingweb-gallery/simple_sombre_s.png",
+      "files": [
+        {
+          "url": "https://www.youtube.com/embed/SrK8LoDJzEc\"",
+          "label": "Pitch de présentation",
+          "type": "youtube"
+        },
+        {
+          "url": "https://grillon.github.io/easylandingweb-gallery/gallery.html",
+          "label": "Gallery",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "titre": "Thugz Plugin",
+      "type": "Hackathon Web3 Unreal",
+      "annee": "2025",
+      "stack": "Unreal Engine, RPC",
+      "role": "Support tech & bizdev",
+      "probleme": "Les jeux classiques et web2 sont amusant mais pas les jeux web3...\nLes acteurs du web3 ne savent pas faire les jeux. L'idée est de permettre aux acteurs du web2 et de l'industrie du jeux classique, d'integrer les fonctionnalités web3 dans leur jeux.",
+      "solution": [
+        "Prototype Unreal plugin (fonctionnel)",
+        "Recherche Partenariat (J'ai trouvé 2 potentiel partenaires, d'accord sur le principe)",
+        "Pitch public et support live",
+        "Aucun lock et on offre toutes les possibilités, la seule limite est l'imagination"
+      ],
+      "apprentissage": [
+        "Nécessité d’un relai terrain solide",
+        "Importance des démonstrations",
+        "Offrir trop de possibilité fait que personne ne se sent vraiment ciblé",
+        "Difficulté à garder l'unité lorsqu'une idée de départ est trop large",
+        "Confrontation avec le vrai marché(le web3 est très mal vu par une bonne partie de la communauté gaming)",
+        "Un marché qui semble fermé ne l'est pas tant que cela car il y a toujours des niches interessantes"
+      ],
+      "visuel": "",
+      "files": [
+        {
+          "url": "https://youtu.be/hQRs0zWUJMM?si=2oiO-kgQjwzEU5SX",
+          "label": "Pitch Colosseum (ce que c'est devenu)",
+          "type": "youtube"
+        },
+        {
+          "url": "https://www.youtube.com/embed/9-q2U1hRO8o",
+          "label": "Projet original",
+          "type": "youtube"
+        },
+        {
+          "url": "https://github.com/ThugzLabs",
+          "label": "Github Thugz (pas seulement du plugin)",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "titre": "LsyncKey",
+      "type": "Prototype hardware",
+      "annee": "2019",
+      "stack": "Raspberry Pi Zero, Syncthing, Linux USB gadget",
+      "role": "Inventeur",
+      "probleme": "Il est parfois compliqué de garder ses données synchro entre differents PC, différents lieux, différentes plateforme. desktop, portable, PC pro, changement de lieu...",
+      "solution": [
+        "Une clé de synchronisation active qui sauvegarde et versionne en arrière plan vos fichiers important.",
+        "Elle est détecté comme une clé USB de données classique et aussi comme une clé logiciele.",
+        " Elle peut se connecter au resaux wifi et se synchroniser avec d'autres clés, pour cela il suffit de mettre 2 clé en mode synchro avec un bouton physique.",
+        "Le prototype est une raspi-zero avec debian et le mode gadget qui permet de la detecter comme une clé USB de données",
+        "Elle a plusieurs partition, l'une avec les données, une avec un point de restau et une avec l'OS.",
+        "Le systeme de synchronisation des données est syncthing."
+      ],
+      "apprentissage": [
+        "Limites de l’UX sans interface",
+        "Pour des raisons inconnus le comportement changeait totalement d'un PC à un autre, même sous windows",
+        "Sur mon PC de dev tt fonctionnait et sur les autres c'était aleatoire.",
+        "L'idée me semblait simple mais chaque jours était un nouveau défi",
+        "J'avais des acheteurs pour le produit, qq1 m'a même payé je n'ai pas réussi à refuser et d'autres étaient pres à le faire",
+        "J'avais aussi trouvé des gens pret à m'aider pour le dev. D'ailleurs un ami m'a accompagné un peu sur le brainstorming."
+      ],
+      "visuel": "",
+      "files": [
+        {
+          "url": "https://framagit.org/bricolotech/lsynckey",
+          "label": "gitlab (je ne pense pas que ce soit a jour)",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "titre": "Connected Magnet",
+      "type": "Prototype atelier",
+      "annee": "2019",
+      "stack": "ESP8266, Wi-Fi, breadboard, 3D print, Arduino, heroku, mqtt, gitlab-ci",
+      "role": "Concepteur et animateur atelier",
+      "probleme": "Initier à l’IoT avec un objet connecté simple et autonome.\nJ'ai pensé un prototype ludique d'apprentissage et l'organisatrice pensait à un produit fini :-D\nIl s'agissait d'un atelier ou je donnais les pièces aux participants et ils devaient faire le branchement + montage + configuration eux même. ça leur a plu. De mon point de vu c'était une réussite. Du point de vu de l'organisatrice, je vendais trop chère un produit non finit...(Dans le sens sans finitions).",
+      "solution": [
+        "Prototype fonctionnel à pile sans soudure",
+        "Boîtier imprimé 3D, ESP8266 sur mini breadboard",
+        "Utilisé dans un atelier avec 12 directeurs Orange Business",
+        "Complet magnet avec ecran connectable au wifi + pile + boitier + interface web pour interaction ",
+        "Deploiement automatique de tt l'environnement sur Heroku (complexité masquée)"
+      ],
+      "apprentissage": [
+        "Décalage entre prototype technique et attente produit fini",
+        "Rôle clé de la médiation dans un cadre innovation",
+        "Design 3D avec openscad",
+        "Prenait bcp plus de temps que prevu à realiser mais on a reussi a arriver à qq chose de fonctionnel"
+      ],
+      "files": [
+        {
+          "url": "https://framagit.org/apprensemble/connected_magnet",
+          "label": "gitlab connected magnet",
+          "type": "link"
+        },
+        {
+          "url": "https://framagit.org/apprensemble/connected_magnet_webapp",
+          "label": "gitlab interface connected magnet",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "titre": "Démos live et présentations libres (2017–2022)",
+      "type": "Conférences, ateliers, webinaires",
+      "annee": "2017–2022",
+      "stack": "Proxmox, Mailpile, Tor, VPN, DNS, Tailscale, Matrix, Syncthing…",
+      "role": "Passeur technique, animateur de démos",
+      "probleme": "Faire découvrir des outils libres avancés dans un cadre bienveillant, sans formalisme, à des publics variés.",
+      "solution": [
+        "Préparation rapide de démos fonctionnelles, souvent sur des sujets imposés ou nouveaux",
+        "Mise en place d’infra réseau complète : VM, DNS, services Tor, VPN mesh",
+        "Démos en conditions réelles : webmail Tor, SSO alternatif, etc.",
+        "Usage occasionnel de slides, parfois filmé ou photographié",
+        "Événements ouverts à tous, annoncés publiquement"
+      ],
+      "apprentissage": [
+        "Forage rapide de doc technique",
+        "Adapter le niveau et la forme selon l’audience",
+        "Pédagogie par la preuve et l’expérience directe",
+        "La transmission technique est un acte de présence, pas seulement de publication",
+        "Accepter l’incertitude de la réception"
+      ],
+      "note": "Valeur principale dans la performance temps réel, peu d’archives formelles. Possibilité de reconstitution sur demande.",
+      "files": [
+        {
+          "url": "https://montpellibre.fr/",
+          "label": "Montpel'libre",
+          "type": "link"
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "nom": "CV",
+      "url": "https://drive.google.com/file/d/1qf4HdpFVf4Nb-YdNKNoIST83GvUG-FTO/view?usp=sharing"
+    },
+    {
+      "nom": "Dossier de compétences",
+      "url": "https://drive.google.com/file/d/13gcNyMYb4mj16-l7ADz0zTQEFOu3T0ui/view?usp=sharing"
+    }
+  ],
+  "reseaux": [
+    {
+      "nom": "GitHub",
+      "url": "https://github.com/grillon",
+      "icone": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    },
+    {
+      "nom": "LinkedIn",
+      "url": "https://www.linkedin.com/in/thierryvogel",
+      "icone": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+    }
+  ]
+}
