@@ -1,7 +1,7 @@
 {
   "nom": "Thierry Vogel",
-  "about": "Infrastructure reliability, DevOps, CI/CD, cloud platforms.",
-  "aboutl": "I help improve infrastructure reliability, automate deployments, and streamline interactions between product and infrastructure teams.\n\nMy background as a system administrator has given me a comprehensive view of technical environments: networking, security, storage, data, and automation.\n\nToday, I build on this foundation to contribute, document, share knowledge, and explore what’s next, from open source to decentralized cloud and AI.\n\nI move forward as a curious craftsman, with a taste for practical solutions and ideas to share.",
+  "about": "Reliability of infrastructures, DevOps, CI/CD, cloud platforms.",
+  "aboutl": "I help to make infrastructures reliable, automate deployments, and smoothen exchanges between product and infrastructure teams.\n\nMy background as a system administrator has given me a cross-sectional view of technical environments: network, security, storage, data, automation.\n\nToday, I build on this foundation to contribute, document, share, and explore new fields, between open source, decentralized cloud, and AI.\n\nI progress as a curious craftsman, with a taste for the concrete and ideas to share.",
   "galerie": [],
   "projets": [
     {
@@ -9,19 +9,19 @@
       "type": "Personal MVP",
       "annee": "2024",
       "stack": "FastAPI, Dash, Plotly, Moralis, Zerion",
-      "role": "Fullstack Designer",
+      "role": "Fullstack designer",
       "probleme": "Easily visualize multiple crypto wallets with PnL.",
       "solution": [
-        "API aggregation with Zerion + Moralis",
+        "Aggregation of Zerion + Moralis APIs",
         "Interactive Dash interface",
-        "Asset tagging and filtering",
+        "Tagging and filtering of assets",
         "PnL calculation per token"
       ],
       "apprentissage": [
         "Limitations of public APIs",
         "Need for local user persistence"
       ],
-      "visuel": "https://apprensemble.github.io/wallex-site/Screenshot_20250415_212937.png"
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_wallex.png"
     },
     {
       "titre": "EasyLandingWeb",
@@ -29,20 +29,20 @@
       "annee": "2025",
       "stack": "Bolt.new, Next.js, JavaScript",
       "role": "Designer and developer",
-      "probleme": "Quickly create a landing page for small projects (e.g., restaurants).",
+      "probleme": "Quickly create a landing page for small projects (e.g., restaurant).",
       "solution": [
         "Ready-to-use RESTO template",
-        "Smart pre-filling",
+        "Intelligent pre-filling",
         "Integrated World's Largest Hackathon badge"
       ],
       "apprentissage": [
         "Narrative AI mock in JS",
         "UX limitations of naive automation"
       ],
-      "visuel": "https://grillon.github.io/easylandingweb-gallery/simple_sombre_s.png",
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_simple_sombre_s.png",
       "files": [
         {
-          "url": "https://www.youtube.com/embed/SrK8LoDJzEc\"",
+          "url": "https://www.youtube.com/embed/SrK8LoDJzEc",
           "label": "Presentation pitch",
           "type": "youtube"
         },
@@ -58,23 +58,23 @@
       "type": "Web3 Unreal Hackathon",
       "annee": "2025",
       "stack": "Unreal Engine, RPC",
-      "role": "Tech & bizdev support",
-      "probleme": "Traditional and Web2 games are fun, but Web3 games are not...\nWeb3 actors don’t know how to make games. The idea is to enable Web2 and traditional gaming industry actors to integrate Web3 functionalities into their games.",
+      "role": "Tech support & bizdev",
+      "probleme": "Classic and Web2 games are fun, but not Web3 games...\nWeb3 actors don’t know how to make games. The idea is to enable Web2 and classic gaming industry actors to integrate Web3 features into their games.",
       "solution": [
         "Functional Unreal plugin prototype",
         "Partnership research (found 2 potential partners, agreed in principle)",
         "Public pitch and live support",
-        "No lock-in, offering all possibilities, with imagination as the only limit"
+        "No lock, offering all possibilities, limited only by imagination"
       ],
       "apprentissage": [
-        "Need for a strong field relay",
+        "Need for a solid field relay",
         "Importance of demonstrations",
-        "Offering too many possibilities makes it hard to target anyone specifically",
-        "Difficulty maintaining unity when the initial idea is too broad",
-        "Confrontation with the real market (Web3 is poorly perceived by much of the gaming community)",
-        "A seemingly closed market isn’t as closed as it seems, as there are always interesting niches"
+        "Offering too many possibilities makes no one feel truly targeted",
+        "Difficulty maintaining unity with a too broad initial idea",
+        "Confrontation with the real market (Web3 poorly viewed by much of the gaming community)",
+        "A seemingly closed market isn’t, as there are always interesting niches"
       ],
-      "visuel": "",
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_Thugz_plugin.png",
       "files": [
         {
           "url": "https://youtu.be/hQRs0zWUJMM?si=2oiO-kgQjwzEU5SX",
@@ -83,12 +83,12 @@
         },
         {
           "url": "https://www.youtube.com/embed/9-q2U1hRO8o",
-          "label": "Original Project",
+          "label": "Original project",
           "type": "youtube"
         },
         {
           "url": "https://github.com/ThugzLabs",
-          "label": "Thugz Github (not just the plugin)",
+          "label": "Thugz GitHub (not only the plugin)",
           "type": "link"
         }
       ]
@@ -99,28 +99,28 @@
       "annee": "2019",
       "stack": "Raspberry Pi Zero, Syncthing, Linux USB gadget",
       "role": "Inventor",
-      "probleme": "It’s sometimes complicated to keep data synchronized across different PCs, locations, and platforms: desktop, laptop, work PC, changing locations...",
+      "probleme": "It’s sometimes complicated to keep data synced across different PCs, locations, platforms: desktop, laptop, work PC, location changes...",
       "solution": [
-        "An active synchronization key that backs up and versions your important files in the background.",
-        "Detected as a standard USB data key and also as a software key.",
-        "It can connect to Wi-Fi networks and synchronize with other keys; simply put two keys in sync mode using a physical button.",
-        "The prototype is a Raspberry Pi Zero with Debian and gadget mode, allowing detection as a USB data key.",
-        "It has multiple partitions: one for data, one for a restore point, and one for the OS.",
-        "The data synchronization system is Syncthing."
+        "An active sync key that backs up and versions important files in the background.",
+        "Detected as a classic USB data key and also as a software key.",
+        "Can connect to Wi-Fi and sync with other keys, activated by a physical button pairing.",
+        "Prototype is a Raspberry Pi Zero with Debian and gadget mode for USB detection",
+        "Multiple partitions: one for data, one for restore point, one for OS.",
+        "Data synchronization system is Syncthing."
       ],
       "apprentissage": [
-        "UX limitations without an interface",
-        "For unknown reasons, behavior varied completely from one PC to another, even on Windows.",
-        "On my dev PC, everything worked, but on others, it was random.",
-        "The idea seemed simple, but every day brought a new challenge.",
-        "I had buyers for the product; someone even paid me, and I couldn’t refuse, while others were ready to do so.",
-        "I also found people willing to help with development. A friend even joined me for some brainstorming."
+        "UX limitations without interface",
+        "Unexplained behavior changes across PCs, even on Windows",
+        "Worked on my dev PC but randomly on others.",
+        "Idea seemed simple but each day was a new challenge",
+        "Had buyers, one paid (couldn’t refuse), others ready to buy",
+        "Found people willing to help with development, a friend assisted with brainstorming."
       ],
       "visuel": "",
       "files": [
         {
           "url": "https://framagit.org/bricolotech/lsynckey",
-          "label": "GitLab (I don’t think it’s up to date)",
+          "label": "gitlab (may not be up to date)",
           "type": "link"
         }
       ]
@@ -131,72 +131,84 @@
       "annee": "2019",
       "stack": "ESP8266, Wi-Fi, breadboard, 3D print, Arduino, Heroku, MQTT, GitLab CI",
       "role": "Designer and workshop facilitator",
-      "probleme": "Introduce IoT with a simple, autonomous connected object.\nI designed a fun learning prototype, but the organizer expected a finished product :-D\nIt was a workshop where I gave participants the parts, and they had to do the wiring, assembly, and configuration themselves. They enjoyed it. From my perspective, it was a success. From the organizer’s perspective, I was selling an unfinished product too expensively (in the sense of lacking polish).",
+      "probleme": "Introduce IoT with a simple, autonomous connected object.\nI designed a playful learning prototype, the organizer wanted a finished product :-D\nIt was a workshop where I provided parts, participants handled wiring, assembly, and configuration themselves. They enjoyed it. From my view, a success. From the organizer’s, I was overpricing an unfinished product (lacking polish).",
       "solution": [
         "Functional battery-powered prototype without soldering",
-        "3D-printed casing, ESP8266 on a mini breadboard",
+        "3D-printed case, ESP8266 on mini breadboard",
         "Used in a workshop with 12 Orange Business directors",
-        "Complete magnet with a screen, connectable to Wi-Fi + battery + casing + web interface for interaction",
-        "Automatic deployment of the entire environment on Heroku (complexity hidden)"
+        "Complete magnet with screen, Wi-Fi, battery, case, web interface for interaction",
+        "Automatic deployment of the entire environment on Heroku (hidden complexity)"
       ],
       "apprentissage": [
-        "Gap between technical prototype and expectations for a finished product",
-        "Key role of mediation in an innovation context",
+        "Gap between technical prototype and finished product expectations",
+        "Key role of mediation in innovation settings",
         "3D design with OpenSCAD",
-        "Took much longer than expected to complete, but we managed to achieve something functional"
+        "Took much longer than planned but achieved a functional result"
       ],
       "files": [
         {
           "url": "https://framagit.org/apprensemble/connected_magnet",
-          "label": "GitLab connected magnet",
+          "label": "gitlab connected magnet",
           "type": "link"
         },
         {
           "url": "https://framagit.org/apprensemble/connected_magnet_webapp",
-          "label": "GitLab connected magnet interface",
+          "label": "gitlab interface connected magnet",
           "type": "link"
+        },
+        {
+          "url": "https://github.com/apprensemble/impression3D/blob/master/magnet/Boite.stl",
+          "label": "3D case OpenSCAD",
+          "type": "image"
+        },
+        {
+          "url": "https://github.com/apprensemble/impression3D/blob/master/magnet/Couvercle.stl",
+          "label": "3D cover OpenSCAD",
+          "type": "image"
         }
-      ]
+      ],
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/connected_magnet.png"
     },
     {
-      "titre": "Live demos and open presentations (2017–2022)",
+      "titre": "Live demos and free presentations (2017–2022)",
       "type": "Conferences, workshops, webinars",
       "annee": "2017–2022",
       "stack": "Proxmox, Mailpile, Tor, VPN, DNS, Tailscale, Matrix, Syncthing…",
-      "role": "Technical facilitator, demo animator",
-      "probleme": "Introduce advanced open-source tools in a friendly, informal setting to diverse audiences.",
+      "role": "Technical facilitator, demo host",
+      "probleme": "Discover advanced open-source tools in a welcoming, informal setting for diverse audiences.",
       "solution": [
         "Quick preparation of functional demos, often on imposed or new topics",
-        "Setup of a complete network infrastructure: VMs, DNS, Tor services, mesh VPN",
-        "Real-world demos: Tor webmail, alternative SSO, etc.",
+        "Setup of complete network infrastructure: VMs, DNS, Tor services, VPN mesh",
+        "Real-time demos: Tor webmail, alternative SSO, etc.",
         "Occasional use of slides, sometimes filmed or photographed",
-        "Events open to all, publicly announced"
+        "Open events, publicly announced"
       ],
       "apprentissage": [
-        "Rapid digging into technical documentation",
-        "Adapting level and format to the audience",
+        "Rapid technical doc diving",
+        "Adapting level and format to audience",
         "Teaching through proof and direct experience",
-        "Technical transmission is an act of presence, not just publication",
-        "Accepting the uncertainty of audience reception"
+        "Technical sharing is an act of presence, not just publication",
+        "Accepting uncertainty of reception"
       ],
-      "note": "Main value lies in real-time performance, few formal archives. Reconstruction possible upon request.",
+      "note": "Main value in real-time performance, few formal archives. Possible reconstruction on request.",
       "files": [
         {
           "url": "https://montpellibre.fr/",
           "label": "Montpel'libre",
           "type": "link"
         }
-      ]
+      ],
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/bricolotech.jpg"
     }
   ],
   "documents": [
     {
-      "nom": "Resume",
-      "url": "https://drive.google.com/file/d/1197DH0oQa1libLEKy_kYj0nh-FUw50VI/view?usp=sharing"
+      "nom": "CV",
+      "url": "https://drive.google.com/file/d/1qf4HdpFVf4Nb-YdNKNoIST83GvUG-FTO/view?usp=sharing"
     },
     {
-      "nom": "Skills portfolio",
-      "url": "https://drive.google.com/file/d/1qeJC0OB4j-szXT8-jrwIbQ7NsLUUNuJ_/view?usp=sharing"
+      "nom": "Skills Profile",
+      "url": "https://drive.google.com/file/d/13gcNyMYb4mj16-l7ADz0zTQEFOu3T0ui/view?usp=sharing"
     }
   ],
   "reseaux": [
