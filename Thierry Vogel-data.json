@@ -59,7 +59,7 @@
       "annee": "2025",
       "stack": "Unreal Engine, RPC",
       "role": "Support tech & bizdev",
-      "probleme": "Les jeux classiques et web2 sont amusant mais pas les jeux web3...\nLes acteurs du web3 ne savent pas faire les jeux. L'idée est de permettre aux acteurs du web2 et de l'industrie du jeux classique, d'integrer les fonctionnalités web3 dans leur jeux.",
+      "probleme": "Les jeux classiques et web2 sont amusant mais pas les jeux web3...\nLes acteurs du web3 ne savent pas faire les jeux.",
       "solution": [
         "Prototype Unreal plugin (fonctionnel)",
         "Recherche Partenariat (J'ai trouvé 2 potentiel partenaires, d'accord sur le principe)",
@@ -99,7 +99,7 @@
       "annee": "2019",
       "stack": "Raspberry Pi Zero, Syncthing, Linux USB gadget",
       "role": "Inventeur",
-      "probleme": "Il est parfois compliqué de garder ses données synchro entre differents PC, différents lieux, différentes plateforme. desktop, portable, PC pro, changement de lieu...",
+      "probleme": "Il est parfois compliqué de garder ses données synchro entre differents PC, différents lieux, différentes plateforme. desktop, portable, PC pro...",
       "solution": [
         "Une clé de synchronisation active qui sauvegarde et versionne en arrière plan vos fichiers important.",
         "Elle est détecté comme une clé USB de données classique et aussi comme une clé logiciele.",
@@ -116,7 +116,7 @@
         "J'avais des acheteurs pour le produit, qq1 m'a même payé je n'ai pas réussi à refuser et d'autres étaient pres à le faire",
         "J'avais aussi trouvé des gens pret à m'aider pour le dev. D'ailleurs un ami m'a accompagné un peu sur le brainstorming."
       ],
-      "visuel": "",
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/proto_physiques/small_LSyncKey_20190528_190348371.jpg",
       "files": [
         {
           "url": "https://framagit.org/bricolotech/lsynckey",
@@ -131,7 +131,7 @@
       "annee": "2019",
       "stack": "ESP8266, Wi-Fi, breadboard, 3D print, Arduino, heroku, mqtt, gitlab-ci",
       "role": "Concepteur et animateur atelier",
-      "probleme": "Initier à l’IoT avec un objet connecté simple et autonome.\nJ'ai pensé un prototype ludique d'apprentissage et l'organisatrice pensait à un produit fini :-D\nIl s'agissait d'un atelier ou je donnais les pièces aux participants et ils devaient faire le branchement + montage + configuration eux même. ça leur a plu. De mon point de vu c'était une réussite. Du point de vu de l'organisatrice, je vendais trop chère un produit non finit...(Dans le sens sans finitions).",
+      "probleme": "Initier à l’IoT avec un objet connecté simple et autonome.",
       "solution": [
         "Prototype fonctionnel à pile sans soudure",
         "Boîtier imprimé 3D, ESP8266 sur mini breadboard",
@@ -165,6 +165,11 @@
           "url": "https://github.com/apprensemble/impression3D/blob/master/magnet/Couvercle.stl",
           "label": "Couvercle 3D OpenSCAD",
           "type": "image"
+        },
+        {
+          "url": "https://grillon.github.io/portfolio-sideprojects/gallery_proto_physiques_from_assets.html",
+          "label": "Galerie photos",
+          "type": "link"
         }
       ],
       "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/connected_magnet.png"

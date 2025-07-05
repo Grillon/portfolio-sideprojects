@@ -59,19 +59,19 @@
       "annee": "2025",
       "stack": "Unreal Engine, RPC",
       "role": "Tech support & bizdev",
-      "probleme": "Classic and Web2 games are fun, but not Web3 games...\nWeb3 actors don’t know how to make games. The idea is to enable Web2 and classic gaming industry actors to integrate Web3 features into their games.",
+      "probleme": "Classic and Web2 games are fun, but not Web3 games...\nWeb3 actors don’t know how to make games.",
       "solution": [
         "Functional Unreal plugin prototype",
         "Partnership research (found 2 potential partners, agreed in principle)",
         "Public pitch and live support",
-        "No lock, offering all possibilities, limited only by imagination"
+        "No lock and offers all possibilities, the only limit is imagination"
       ],
       "apprentissage": [
         "Need for a solid field relay",
         "Importance of demonstrations",
         "Offering too many possibilities makes no one feel truly targeted",
         "Difficulty maintaining unity with a too broad initial idea",
-        "Confrontation with the real market (Web3 poorly viewed by much of the gaming community)",
+        "Confrontation with the real market (Web3 is poorly viewed by much of the gaming community)",
         "A seemingly closed market isn’t, as there are always interesting niches"
       ],
       "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_Thugz_plugin.png",
@@ -99,7 +99,7 @@
       "annee": "2019",
       "stack": "Raspberry Pi Zero, Syncthing, Linux USB gadget",
       "role": "Inventor",
-      "probleme": "It’s sometimes complicated to keep data synced across different PCs, locations, platforms: desktop, laptop, work PC, location changes...",
+      "probleme": "It’s sometimes complicated to keep data synced across different PCs, locations, platforms: desktop, laptop, work PC...",
       "solution": [
         "An active sync key that backs up and versions important files in the background.",
         "Detected as a classic USB data key and also as a software key.",
@@ -116,7 +116,7 @@
         "Had buyers, one paid (couldn’t refuse), others ready to buy",
         "Found people willing to help with development, a friend assisted with brainstorming."
       ],
-      "visuel": "",
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/proto_physiques/small_LSyncKey_20190528_190348371.jpg",
       "files": [
         {
           "url": "https://framagit.org/bricolotech/lsynckey",
@@ -131,7 +131,7 @@
       "annee": "2019",
       "stack": "ESP8266, Wi-Fi, breadboard, 3D print, Arduino, Heroku, MQTT, GitLab CI",
       "role": "Designer and workshop facilitator",
-      "probleme": "Introduce IoT with a simple, autonomous connected object.\nI designed a playful learning prototype, the organizer wanted a finished product :-D\nIt was a workshop where I provided parts, participants handled wiring, assembly, and configuration themselves. They enjoyed it. From my view, a success. From the organizer’s, I was overpricing an unfinished product (lacking polish).",
+      "probleme": "Introduce IoT with a simple, autonomous connected object.",
       "solution": [
         "Functional battery-powered prototype without soldering",
         "3D-printed case, ESP8266 on mini breadboard",
@@ -165,6 +165,11 @@
           "url": "https://github.com/apprensemble/impression3D/blob/master/magnet/Couvercle.stl",
           "label": "3D cover OpenSCAD",
           "type": "image"
+        },
+        {
+          "url": "https://grillon.github.io/portfolio-sideprojects/gallery_proto_physiques_from_assets.html",
+          "label": "Photo gallery",
+          "type": "link"
         }
       ],
       "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/connected_magnet.png"
