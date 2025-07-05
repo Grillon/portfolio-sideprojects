@@ -21,7 +21,24 @@
         "Limites des API publiques",
         "Nécessité de persistance utilisateur locale"
       ],
-      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_wallex.png"
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_wallex.png",
+      "files": [
+        {
+          "url": "https://github.com/apprensemble/wallex",
+          "label": "Wallex (CLI/Base)",
+          "type": "link"
+        },
+        {
+          "url": "https://github.com/apprensemble/wallex_ihm",
+          "label": "Wallex IHM avec Dash",
+          "type": "link"
+        },
+        {
+          "url": "https://apprensemble.github.io/wallex-site/",
+          "label": "Wallex vitrine",
+          "type": "link"
+        }
+      ]
     },
     {
       "titre": "EasyLandingWeb",

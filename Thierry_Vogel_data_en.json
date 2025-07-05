@@ -1,7 +1,7 @@
 {
   "nom": "Thierry Vogel",
-  "about": "Reliability architect. I assemble, test, and document.\nMy field: readable infrastructures, lean deployments, robust systems.",
-  "aboutl": "I work on system architectures with a focus on reliability, testability, and integrated documentation.\nMy background spans system administration, technical prototyping, and software mediation.\nI operate from real constraints, not promises.\nI explore breaking points to stabilize useful forms.",
+  "about": "Reliability architect. I assemble, test, and document.\nMy field: clean infrastructures, lean deployments, solid systems.",
+  "aboutl": "I design system architectures focused on reliability, testability, and embedded documentation.\nMy journey spans system admin, tech prototyping, and software mediation.\nI work with real constraints, not hype.\nI dig into breaking points to craft stable, practical solutions.",
   "galerie": [],
   "projets": [
     {
@@ -12,16 +12,33 @@
       "role": "Fullstack designer",
       "probleme": "Easily visualize multiple crypto wallets with PnL.",
       "solution": [
-        "Aggregation of Zerion + Moralis APIs",
-        "Interactive Dash interface",
-        "Tagging and filtering of assets",
-        "PnL calculation per token"
+        "Tied together Zerion + Moralis APIs",
+        "Interactive Dash dashboard",
+        "Asset tagging and filtering",
+        "PnL calc per token"
       ],
       "apprentissage": [
-        "Limitations of public APIs",
-        "Need for local user persistence"
+        "Public APIs hit their limits fast",
+        "Local user persistence was a must"
       ],
-      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_wallex.png"
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_wallex.png",
+      "files": [
+        {
+          "url": "https://github.com/apprensemble/wallex",
+          "label": "Wallex (CLI/Base)",
+          "type": "link"
+        },
+        {
+          "url": "https://github.com/apprensemble/wallex_ihm",
+          "label": "Wallex IHM avec Dash",
+          "type": "link"
+        },
+        {
+          "url": "https://apprensemble.github.io/wallex-site/",
+          "label": "Wallex vitrine",
+          "type": "link"
+        }
+      ]
     },
     {
       "titre": "EasyLandingWeb",
@@ -29,15 +46,15 @@
       "annee": "2025",
       "stack": "Bolt.new, Next.js, JavaScript",
       "role": "Designer and developer",
-      "probleme": "Quickly create a landing page for small projects (e.g., restaurant).",
+      "probleme": "Spin up a project site fast for small gigs (e.g., restaurants).",
       "solution": [
-        "Ready-to-use RESTO template",
-        "Intelligent pre-filling",
-        "Integrated World's Largest Hackathon badge"
+        "Ready-to-go RESTO template",
+        "Context-aware autofill",
+        "World’s Largest Hackathon badge baked in"
       ],
       "apprentissage": [
-        "Narrative AI mock in JS",
-        "UX limitations of naive automation"
+        "JS narrative AI mock worked, but barely",
+        "Naive automation tripped up the UX"
       ],
       "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_simple_sombre_s.png",
       "files": [
@@ -59,20 +76,20 @@
       "annee": "2025",
       "stack": "Unreal Engine, RPC",
       "role": "Tech support & bizdev",
-      "probleme": "Classic and Web2 games are fun, but not Web3 games...\nWeb3 actors don’t know how to make games.",
+      "probleme": "Classic and Web2 games are fun, but Web3 falls flat...\nWeb3 players don’t know gaming.",
       "solution": [
-        "Functional Unreal plugin prototype",
-        "Partnership research (found 2 potential partners, agreed in principle)",
-        "Public pitch and live support",
-        "No lock and offers all possibilities, the only limit is imagination"
+        "Working Unreal plugin prototype",
+        "Lined up 2 potential partners, principle agreed",
+        "Public pitch with live support",
+        "Open-ended by design, no imposed boundaries"
       ],
       "apprentissage": [
-        "Need for a solid field relay",
-        "Importance of demonstrations",
-        "Offering too many possibilities makes no one feel truly targeted",
-        "Difficulty maintaining unity with a too broad initial idea",
-        "Confrontation with the real market (Web3 is poorly viewed by much of the gaming community)",
-        "A seemingly closed market isn’t, as there are always interesting niches"
+        "Needed a strong on-ground relay",
+        "Demos were make-or-break",
+        "Too many options left everyone lost",
+        "Broad ideas lost focus fast",
+        "Web3’s rep tanked with gamers",
+        "Closed markets hide untapped niches"
       ],
       "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_Thugz_plugin.png",
       "files": [
@@ -88,7 +105,7 @@
         },
         {
           "url": "https://github.com/ThugzLabs",
-          "label": "Thugz GitHub (not only the plugin)",
+          "label": "Thugz GitHub (not just the plugin)",
           "type": "link"
         }
       ]
@@ -99,28 +116,28 @@
       "annee": "2019",
       "stack": "Raspberry Pi Zero, Syncthing, Linux USB gadget",
       "role": "Inventor",
-      "probleme": "It’s sometimes complicated to keep data synced across different PCs, locations, platforms: desktop, laptop, work PC...",
+      "probleme": "Keeping data synced across PCs, spots, and platforms is a hassle: desktop, laptop, work rig...",
       "solution": [
-        "An active sync key that backs up and versions important files in the background.",
-        "Detected as a classic USB data key and also as a software key.",
-        "Can connect to Wi-Fi and sync with other keys, activated by a physical button pairing.",
-        "Prototype is a Raspberry Pi Zero with Debian and gadget mode for USB detection",
-        "Multiple partitions: one for data, one for restore point, one for OS.",
-        "Data synchronization system is Syncthing."
+        "Active sync key backs up and versions files on the fly.",
+        "Plugs in as a standard USB or software key.",
+        "Wi-Fi sync with other keys via a physical button pair.",
+        "Raspberry Pi Zero with Debian, gadget mode for USB",
+        "Partitions for data, restore, and OS.",
+        "Syncthing handles the sync."
       ],
       "apprentissage": [
-        "UX limitations without interface",
-        "Unexplained behavior changes across PCs, even on Windows",
-        "Worked on my dev PC but randomly on others.",
-        "Idea seemed simple but each day was a new challenge",
-        "Had buyers, one paid (couldn’t refuse), others ready to buy",
-        "Found people willing to help with development, a friend assisted with brainstorming."
+        "UX suffered without a front-end",
+        "Behavior flipped across PCs, even Windows—why?",
+        "Flawless on my dev box, a coin toss elsewhere.",
+        "Simple idea, daily curveballs",
+        "Had buyers, one paid up, others were keen",
+        "Got dev help, a friend chimed in on brainstorming."
       ],
       "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/proto_physiques/small_LSyncKey_20190528_190348371.jpg",
       "files": [
         {
           "url": "https://framagit.org/bricolotech/lsynckey",
-          "label": "gitlab (may not be up to date)",
+          "label": "gitlab (might be outdated)",
           "type": "link"
         }
       ]
@@ -131,19 +148,19 @@
       "annee": "2019",
       "stack": "ESP8266, Wi-Fi, breadboard, 3D print, Arduino, Heroku, MQTT, GitLab CI",
       "role": "Designer and workshop facilitator",
-      "probleme": "Introduce IoT with a simple, autonomous connected object.",
+      "probleme": "Kickstart IoT learning with a simple, standalone gadget.",
       "solution": [
-        "Functional battery-powered prototype without soldering",
-        "3D-printed case, ESP8266 on mini breadboard",
-        "Used in a workshop with 12 Orange Business directors",
-        "Complete magnet with screen, Wi-Fi, battery, case, web interface for interaction",
-        "Automatic deployment of the entire environment on Heroku (hidden complexity)"
+        "Battery-powered prototype, no soldering needed",
+        "3D-printed case, ESP8266 on a mini breadboard",
+        "Ran a hands-on session with 12 Orange Business execs",
+        "Full magnet with screen, Wi-Fi, battery, case, web control",
+        "Heroku auto-deployed the setup (complexity under wraps)"
       ],
       "apprentissage": [
-        "Gap between technical prototype and finished product expectations",
-        "Key role of mediation in innovation settings",
-        "3D design with OpenSCAD",
-        "Took much longer than planned but achieved a functional result"
+        "Tech prototype vs. finished product—big gap",
+        "Mediation was the glue in innovation",
+        "Modeled in OpenSCAD",
+        "Took way longer than planned but landed functional"
       ],
       "files": [
         {
@@ -180,16 +197,16 @@
       "annee": "2018",
       "stack": "Heterogeneous hardware, local network, offloaded services",
       "role": "Designer",
-      "probleme": "How to practically experiment with distributed architectures using recovered, non-homogeneous hardware.",
+      "probleme": "Test distributed setups with salvaged, mismatched gear.",
       "solution": [
-        "Creation of a cluster of machines with functional specialization per node",
-        "Public demonstration at the Science Festival",
-        "Handcrafted simulation of a distributed computing logic"
+        "Built a cluster with specialized nodes",
+        "Showcased it at the Science Festival",
+        "Handcrafted a distributed computing demo"
       ],
       "apprentissage": [
-        "Adapting a project to strong hardware constraints",
-        "Abandoning remote display, pivoting to headless services",
-        "Formalizing a useful architecture with limited resources"
+        "Bent the project around tight hardware limits",
+        "Ditched remote display, went headless",
+        "Turned scraps into a solid architecture"
       ],
       "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/proto_physiques/small_desktop_cluster_2018.jpg",
       "files": [
@@ -211,22 +228,22 @@
       "annee": "2017–2022",
       "stack": "Proxmox, Mailpile, Tor, VPN, DNS, Tailscale, Matrix, Syncthing, desktop-cluster...",
       "role": "Technical facilitator, demo host",
-      "probleme": "Discover advanced open-source tools in a welcoming, informal setting for diverse audiences.",
+      "probleme": "Showcase advanced open-source tools in a chill, open space for all kinds of folks.",
       "solution": [
-        "Quick preparation of functional demos, often on imposed or new topics",
-        "Setup of complete network infrastructure: VMs, DNS, Tor services, VPN mesh",
-        "Real-time demos: Tor webmail, alternative SSO, etc.",
-        "Occasional use of slides, sometimes filmed or photographed",
-        "Open events, publicly announced"
+        "Whipped up functional demos, often on the fly or new topics",
+        "Set up full network stacks: VMs, DNS, Tor, VPN mesh",
+        "Live demos: Tor webmail, alt SSO, you name it",
+        "Threw in slides sometimes, captured on video or pics",
+        "Open events, shouted out publicly"
       ],
       "apprentissage": [
-        "Rapid technical doc diving",
-        "Adapting level and format to audience",
-        "Teaching through proof and direct experience",
-        "Technical sharing is an act of presence, not just publication",
-        "Accepting uncertainty of reception"
+        "Dug into tech docs on the spot",
+        "Tailored the vibe to the crowd",
+        "Taught by doing, not just telling",
+        "Sharing is showing up, not just posting",
+        "Rolled with unpredictable reactions"
       ],
-      "note": "Main value in real-time performance, few formal archives. Possible reconstruction on request.",
+      "note": "Real-time action was the win, not formal archives. Can rebuild on request.",
       "files": [
         {
           "url": "https://montpellibre.fr/",
