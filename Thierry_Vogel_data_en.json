@@ -1,7 +1,7 @@
 {
   "nom": "Thierry Vogel",
-  "about": "Reliability of infrastructures, DevOps, CI/CD, cloud platforms.",
-  "aboutl": "I help to make infrastructures reliable, automate deployments, and smoothen exchanges between product and infrastructure teams.\n\nMy background as a system administrator has given me a cross-sectional view of technical environments: network, security, storage, data, automation.\n\nToday, I build on this foundation to contribute, document, share, and explore new fields, between open source, decentralized cloud, and AI.\n\nI progress as a curious craftsman, with a taste for the concrete and ideas to share.",
+  "about": "Reliability architect. I assemble, test, and document.\nMy field: readable infrastructures, lean deployments, robust systems.",
+  "aboutl": "I work on system architectures with a focus on reliability, testability, and integrated documentation.\nMy background spans system administration, technical prototyping, and software mediation.\nI operate from real constraints, not promises.\nI explore breaking points to stabilize useful forms.",
   "galerie": [],
   "projets": [
     {
@@ -175,10 +175,41 @@
       "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/connected_magnet.png"
     },
     {
+      "titre": "Desktop Cluster",
+      "type": "Physical prototype",
+      "annee": "2018",
+      "stack": "Heterogeneous hardware, local network, offloaded services",
+      "role": "Designer",
+      "probleme": "How to practically experiment with distributed architectures using recovered, non-homogeneous hardware.",
+      "solution": [
+        "Creation of a cluster of machines with functional specialization per node",
+        "Public demonstration at the Science Festival",
+        "Handcrafted simulation of a distributed computing logic"
+      ],
+      "apprentissage": [
+        "Adapting a project to strong hardware constraints",
+        "Abandoning remote display, pivoting to headless services",
+        "Formalizing a useful architecture with limited resources"
+      ],
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/proto_physiques/small_desktop_cluster_2018.jpg",
+      "files": [
+        {
+          "url": "https://framagit.org/bricolotech/desktop-cluster",
+          "label": "Original repository",
+          "type": "link"
+        },
+        {
+          "url": "https://framagit.org/bricolotech/desktop-cluster-sef",
+          "label": "Science Festival version",
+          "type": "link"
+        }
+      ]
+    },
+    {
       "titre": "Live demos and free presentations (2017–2022)",
       "type": "Conferences, workshops, webinars",
       "annee": "2017–2022",
-      "stack": "Proxmox, Mailpile, Tor, VPN, DNS, Tailscale, Matrix, Syncthing…",
+      "stack": "Proxmox, Mailpile, Tor, VPN, DNS, Tailscale, Matrix, Syncthing, desktop-cluster...",
       "role": "Technical facilitator, demo host",
       "probleme": "Discover advanced open-source tools in a welcoming, informal setting for diverse audiences.",
       "solution": [

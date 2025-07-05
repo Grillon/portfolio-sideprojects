@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio de Thierry Vogel</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs" defer></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -419,7 +420,7 @@
       <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
         <path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/>
       </svg>
-      <span>Projets (6)</span>
+      <span>Projets (7)</span>
       <svg class="w-4 h-4 transition-transform" id="indexChevron" fill="currentColor" viewBox="0 0 24 24">
         <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
       </svg>
@@ -446,6 +447,10 @@
         Connected Magnet
       </a>
       
+      <a href="#desktop-cluster" class="project-index-item">
+        Desktop Cluster
+      </a>
+      
       <a href="#live-demos-and-free-presentations-(2017–2022)" class="project-index-item">
         Live demos and free presentations (2017–2022)
       </a>
@@ -458,7 +463,8 @@
   <header class="header">
     <div class="container">
       <h1 class="fade-in">Portfolio de Thierry Vogel</h1>
-      <p class="text-xl opacity-90 mt-4">Reliability of infrastructures, DevOps, CI/CD, cloud platforms.</p>
+      <p class="text-xl opacity-90 mt-4">Reliability architect. I assemble, test, and document.
+My field: readable infrastructures, lean deployments, robust systems.</p>
     </div>
   </header>
 
@@ -468,13 +474,10 @@
         <div class="projet">
           <h2 class="text-3xl font-bold mb-4 text-center">À propos</h2>
           <p class="text-lg leading-relaxed text-left max-w-prose mx-auto">
-            I help to make infrastructures reliable, automate deployments, and smoothen exchanges between product and infrastructure teams.
-
-My background as a system administrator has given me a cross-sectional view of technical environments: network, security, storage, data, automation.
-
-Today, I build on this foundation to contribute, document, share, and explore new fields, between open source, decentralized cloud, and AI.
-
-I progress as a curious craftsman, with a taste for the concrete and ideas to share.
+            I work on system architectures with a focus on reliability, testability, and integrated documentation.
+My background spans system administration, technical prototyping, and software mediation.
+I operate from real constraints, not promises.
+I explore breaking points to stabilize useful forms.
           </p>
         </div>
       </div>
@@ -531,6 +534,15 @@ I progress as a curious craftsman, with a taste for the concrete and ideas to sh
         </div>
         
         <div class="card">
+          <a href="#desktop-cluster">
+            <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/proto_physiques/small_desktop_cluster_2018.jpg" alt="desktop-cluster" loading="lazy">
+            <div class="p-4">
+              <h3 class="font-semibold text-center capitalize">desktop cluster</h3>
+            </div>
+          </a>
+        </div>
+        
+        <div class="card">
           <a href="#live-demos-and-free-presentations-(2017–2022)">
             <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/bricolotech.jpg" alt="live-demos-and-free-presentations-(2017–2022)" loading="lazy">
             <div class="p-4">
@@ -546,400 +558,453 @@ I progress as a curious craftsman, with a taste for the concrete and ideas to sh
     <!-- Section Projets -->
     <section id="projets" class="section fade-in">
       <h2 class="text-3xl font-bold mb-8 text-center">Mes projets</h2>
-      
-      <div class="card projet" id="wallex">
-        <h3 class="text-2xl font-bold mb-4">WallEx</h3>
         
-        <div class="projet-meta">
-          <div><strong>Type :</strong> Personal MVP</div>
-          <div><strong>Année :</strong> 2024</div>
-          <div><strong>Stack :</strong> FastAPI, Dash, Plotly, Moralis, Zerion</div>
-          <div><strong>Rôle :</strong> Fullstack designer</div>
-        </div>
+          
+          <div class="card projet" id="wallex">
+          
+                <h3 class="text-2xl font-bold mb-4">WallEx</h3>
+                <div class="projet-meta">
+                  <div><strong>Type :</strong> Personal MVP</div>
+                  <div><strong>Année :</strong> 2024</div>
+                  <div><strong>Stack :</strong> FastAPI, Dash, Plotly, Moralis, Zerion</div>
+                  <div><strong>Rôle :</strong> Fullstack designer</div>
+                </div>
+                <div class="mb-4">
+                  <p><strong class="text-lg">Problème :</strong></p>
+                  <p class="mt-2">Easily visualize multiple crypto wallets with PnL.</p>
+                </div>
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Solution :</strong></p>
+                  <ul class="solution-list">
+                    <li>Aggregation of Zerion + Moralis APIs</li><li>Interactive Dash interface</li><li>Tagging and filtering of assets</li><li>PnL calculation per token</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
+                  <ul class="apprentissage-list">
+                    <li>Limitations of public APIs</li><li>Need for local user persistence</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="projet-visuel">
+                  <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_wallex.png" alt="Visuel WallEx" loading="lazy">
+                </div>
+                
+                
+          
+          </div>
+          
         
-        <div class="mb-4">
-          <p><strong class="text-lg">Problème :</strong></p>
-          <p class="mt-2">Easily visualize multiple crypto wallets with PnL.</p>
-        </div>
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Solution :</strong></p>
-          <ul class="solution-list">
-            <li>Aggregation of Zerion + Moralis APIs</li><li>Interactive Dash interface</li><li>Tagging and filtering of assets</li><li>PnL calculation per token</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
-          <ul class="apprentissage-list">
-            <li>Limitations of public APIs</li><li>Need for local user persistence</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="projet-visuel">
-          <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_wallex.png" alt="Visuel WallEx" loading="lazy">
-        </div>
-        
-        
-        
-      </div>
-      
-      <div class="card projet" id="easylandingweb">
-        <h3 class="text-2xl font-bold mb-4">EasyLandingWeb</h3>
-        
-        <div class="projet-meta">
-          <div><strong>Type :</strong> Landing page generator</div>
-          <div><strong>Année :</strong> 2025</div>
-          <div><strong>Stack :</strong> Bolt.new, Next.js, JavaScript</div>
-          <div><strong>Rôle :</strong> Designer and developer</div>
-        </div>
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Problème :</strong></p>
-          <p class="mt-2">Quickly create a landing page for small projects (e.g., restaurant).</p>
-        </div>
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Solution :</strong></p>
-          <ul class="solution-list">
-            <li>Ready-to-use RESTO template</li><li>Intelligent pre-filling</li><li>Integrated World's Largest Hackathon badge</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
-          <ul class="apprentissage-list">
-            <li>Narrative AI mock in JS</li><li>UX limitations of naive automation</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="projet-visuel">
-          <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_simple_sombre_s.png" alt="Visuel EasyLandingWeb" loading="lazy">
-        </div>
-        
-        
-        
-          <div class="mt-6">
-            <p><strong class="text-lg">Fichiers et ressources :</strong></p>
-            <div class="files-grid mt-3">
-              
-                    <div class="w-full mb-4">
-                      <div class="font-medium mb-1">Presentation pitch</div>
-                      <iframe class="w-full aspect-video rounded shadow"
-                        src="https://www.youtube.com/embed/SrK8LoDJzEc"
-                        frameborder="0"
-                        allowfullscreen>
-                      </iframe>
-                    </div>
-                  <a href="https://grillon.github.io/easylandingweb-gallery/gallery.html" target="_blank" class="file-item">
-                    <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          
+          <div class="card projet" id="easylandingweb">
+          
+                <h3 class="text-2xl font-bold mb-4">EasyLandingWeb</h3>
+                <div class="projet-meta">
+                  <div><strong>Type :</strong> Landing page generator</div>
+                  <div><strong>Année :</strong> 2025</div>
+                  <div><strong>Stack :</strong> Bolt.new, Next.js, JavaScript</div>
+                  <div><strong>Rôle :</strong> Designer and developer</div>
+                </div>
+                <div class="mb-4">
+                  <p><strong class="text-lg">Problème :</strong></p>
+                  <p class="mt-2">Quickly create a landing page for small projects (e.g., restaurant).</p>
+                </div>
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Solution :</strong></p>
+                  <ul class="solution-list">
+                    <li>Ready-to-use RESTO template</li><li>Intelligent pre-filling</li><li>Integrated World's Largest Hackathon badge</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
+                  <ul class="apprentissage-list">
+                    <li>Narrative AI mock in JS</li><li>UX limitations of naive automation</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="projet-visuel">
+                  <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_simple_sombre_s.png" alt="Visuel EasyLandingWeb" loading="lazy">
+                </div>
+                
+                
+                  <div class="mt-6">
+                    <p><strong class="text-lg">Fichiers et ressources :</strong></p>
+                    <div class="files-grid mt-3">
+                      
+                            <div class="w-full mb-4">
+                              <div class="font-medium mb-1">Presentation pitch</div>
+                              <iframe class="w-full aspect-video rounded shadow"
+                                src="https://www.youtube.com/embed/SrK8LoDJzEc"
+                                frameborder="0"
+                                allowfullscreen>
+                              </iframe>
+                            </div>
+                          <a href="https://grillon.github.io/easylandingweb-gallery/gallery.html" target="_blank" class="file-item">
+                            <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
     </svg></div>
-                    <div class="flex-1">
-                      <div class="font-medium">Gallery</div>
-                      <div class="file-type">link</div>
+                            <div class="flex-1">
+                              <div class="font-medium">Gallery</div>
+                              <div class="file-type">link</div>
+                            </div>
+                          </a>
                     </div>
-                  </a>
-            </div>
+                  </div>
+                
+          
           </div>
+          
         
-      </div>
-      
-      <div class="card projet" id="thugz-plugin">
-        <h3 class="text-2xl font-bold mb-4">Thugz Plugin</h3>
-        
-        <div class="projet-meta">
-          <div><strong>Type :</strong> Web3 Unreal Hackathon</div>
-          <div><strong>Année :</strong> 2025</div>
-          <div><strong>Stack :</strong> Unreal Engine, RPC</div>
-          <div><strong>Rôle :</strong> Tech support & bizdev</div>
-        </div>
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Problème :</strong></p>
-          <p class="mt-2">Classic and Web2 games are fun, but not Web3 games...
+          
+          <div class="card projet" id="thugz-plugin">
+          
+                <h3 class="text-2xl font-bold mb-4">Thugz Plugin</h3>
+                <div class="projet-meta">
+                  <div><strong>Type :</strong> Web3 Unreal Hackathon</div>
+                  <div><strong>Année :</strong> 2025</div>
+                  <div><strong>Stack :</strong> Unreal Engine, RPC</div>
+                  <div><strong>Rôle :</strong> Tech support & bizdev</div>
+                </div>
+                <div class="mb-4">
+                  <p><strong class="text-lg">Problème :</strong></p>
+                  <p class="mt-2">Classic and Web2 games are fun, but not Web3 games...
 Web3 actors don’t know how to make games.</p>
-        </div>
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Solution :</strong></p>
-          <ul class="solution-list">
-            <li>Functional Unreal plugin prototype</li><li>Partnership research (found 2 potential partners, agreed in principle)</li><li>Public pitch and live support</li><li>No lock and offers all possibilities, the only limit is imagination</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
-          <ul class="apprentissage-list">
-            <li>Need for a solid field relay</li><li>Importance of demonstrations</li><li>Offering too many possibilities makes no one feel truly targeted</li><li>Difficulty maintaining unity with a too broad initial idea</li><li>Confrontation with the real market (Web3 is poorly viewed by much of the gaming community)</li><li>A seemingly closed market isn’t, as there are always interesting niches</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="projet-visuel">
-          <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_Thugz_plugin.png" alt="Visuel Thugz Plugin" loading="lazy">
-        </div>
-        
-        
-        
-          <div class="mt-6">
-            <p><strong class="text-lg">Fichiers et ressources :</strong></p>
-            <div class="files-grid mt-3">
-              
-                    <div class="w-full mb-4">
-                      <div class="font-medium mb-1">Colosseum Pitch (what it became)</div>
-                      <iframe class="w-full aspect-video rounded shadow"
-                        src="https://www.youtube.com/embed/hQRs0zWUJMM"
-                        frameborder="0"
-                        allowfullscreen>
-                      </iframe>
-                    </div>
-                    <div class="w-full mb-4">
-                      <div class="font-medium mb-1">Original project</div>
-                      <iframe class="w-full aspect-video rounded shadow"
-                        src="https://www.youtube.com/embed/9-q2U1hRO8o"
-                        frameborder="0"
-                        allowfullscreen>
-                      </iframe>
-                    </div>
-                  <a href="https://github.com/ThugzLabs" target="_blank" class="file-item">
-                    <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                </div>
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Solution :</strong></p>
+                  <ul class="solution-list">
+                    <li>Functional Unreal plugin prototype</li><li>Partnership research (found 2 potential partners, agreed in principle)</li><li>Public pitch and live support</li><li>No lock and offers all possibilities, the only limit is imagination</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
+                  <ul class="apprentissage-list">
+                    <li>Need for a solid field relay</li><li>Importance of demonstrations</li><li>Offering too many possibilities makes no one feel truly targeted</li><li>Difficulty maintaining unity with a too broad initial idea</li><li>Confrontation with the real market (Web3 is poorly viewed by much of the gaming community)</li><li>A seemingly closed market isn’t, as there are always interesting niches</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="projet-visuel">
+                  <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/small_Thugz_plugin.png" alt="Visuel Thugz Plugin" loading="lazy">
+                </div>
+                
+                
+                  <div class="mt-6">
+                    <p><strong class="text-lg">Fichiers et ressources :</strong></p>
+                    <div class="files-grid mt-3">
+                      
+                            <div class="w-full mb-4">
+                              <div class="font-medium mb-1">Colosseum Pitch (what it became)</div>
+                              <iframe class="w-full aspect-video rounded shadow"
+                                src="https://www.youtube.com/embed/hQRs0zWUJMM"
+                                frameborder="0"
+                                allowfullscreen>
+                              </iframe>
+                            </div>
+                            <div class="w-full mb-4">
+                              <div class="font-medium mb-1">Original project</div>
+                              <iframe class="w-full aspect-video rounded shadow"
+                                src="https://www.youtube.com/embed/9-q2U1hRO8o"
+                                frameborder="0"
+                                allowfullscreen>
+                              </iframe>
+                            </div>
+                          <a href="https://github.com/ThugzLabs" target="_blank" class="file-item">
+                            <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
     </svg></div>
-                    <div class="flex-1">
-                      <div class="font-medium">Thugz GitHub (not only the plugin)</div>
-                      <div class="file-type">link</div>
+                            <div class="flex-1">
+                              <div class="font-medium">Thugz GitHub (not only the plugin)</div>
+                              <div class="file-type">link</div>
+                            </div>
+                          </a>
                     </div>
-                  </a>
-            </div>
+                  </div>
+                
+          
           </div>
+          
         
-      </div>
-      
-      <div class="card projet" id="lsynckey">
-        <h3 class="text-2xl font-bold mb-4">LsyncKey</h3>
-        
-        <div class="projet-meta">
-          <div><strong>Type :</strong> Hardware prototype</div>
-          <div><strong>Année :</strong> 2019</div>
-          <div><strong>Stack :</strong> Raspberry Pi Zero, Syncthing, Linux USB gadget</div>
-          <div><strong>Rôle :</strong> Inventor</div>
-        </div>
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Problème :</strong></p>
-          <p class="mt-2">It’s sometimes complicated to keep data synced across different PCs, locations, platforms: desktop, laptop, work PC...</p>
-        </div>
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Solution :</strong></p>
-          <ul class="solution-list">
-            <li>An active sync key that backs up and versions important files in the background.</li><li>Detected as a classic USB data key and also as a software key.</li><li>Can connect to Wi-Fi and sync with other keys, activated by a physical button pairing.</li><li>Prototype is a Raspberry Pi Zero with Debian and gadget mode for USB detection</li><li>Multiple partitions: one for data, one for restore point, one for OS.</li><li>Data synchronization system is Syncthing.</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
-          <ul class="apprentissage-list">
-            <li>UX limitations without interface</li><li>Unexplained behavior changes across PCs, even on Windows</li><li>Worked on my dev PC but randomly on others.</li><li>Idea seemed simple but each day was a new challenge</li><li>Had buyers, one paid (couldn’t refuse), others ready to buy</li><li>Found people willing to help with development, a friend assisted with brainstorming.</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="projet-visuel">
-          <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/proto_physiques/small_LSyncKey_20190528_190348371.jpg" alt="Visuel LsyncKey" loading="lazy">
-        </div>
-        
-        
-        
-          <div class="mt-6">
-            <p><strong class="text-lg">Fichiers et ressources :</strong></p>
-            <div class="files-grid mt-3">
-              
-                  <a href="https://framagit.org/bricolotech/lsynckey" target="_blank" class="file-item">
-                    <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          
+          <div class="card projet" id="lsynckey">
+          
+                <h3 class="text-2xl font-bold mb-4">LsyncKey</h3>
+                <div class="projet-meta">
+                  <div><strong>Type :</strong> Hardware prototype</div>
+                  <div><strong>Année :</strong> 2019</div>
+                  <div><strong>Stack :</strong> Raspberry Pi Zero, Syncthing, Linux USB gadget</div>
+                  <div><strong>Rôle :</strong> Inventor</div>
+                </div>
+                <div class="mb-4">
+                  <p><strong class="text-lg">Problème :</strong></p>
+                  <p class="mt-2">It’s sometimes complicated to keep data synced across different PCs, locations, platforms: desktop, laptop, work PC...</p>
+                </div>
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Solution :</strong></p>
+                  <ul class="solution-list">
+                    <li>An active sync key that backs up and versions important files in the background.</li><li>Detected as a classic USB data key and also as a software key.</li><li>Can connect to Wi-Fi and sync with other keys, activated by a physical button pairing.</li><li>Prototype is a Raspberry Pi Zero with Debian and gadget mode for USB detection</li><li>Multiple partitions: one for data, one for restore point, one for OS.</li><li>Data synchronization system is Syncthing.</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
+                  <ul class="apprentissage-list">
+                    <li>UX limitations without interface</li><li>Unexplained behavior changes across PCs, even on Windows</li><li>Worked on my dev PC but randomly on others.</li><li>Idea seemed simple but each day was a new challenge</li><li>Had buyers, one paid (couldn’t refuse), others ready to buy</li><li>Found people willing to help with development, a friend assisted with brainstorming.</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="projet-visuel">
+                  <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/proto_physiques/small_LSyncKey_20190528_190348371.jpg" alt="Visuel LsyncKey" loading="lazy">
+                </div>
+                
+                
+                  <div class="mt-6">
+                    <p><strong class="text-lg">Fichiers et ressources :</strong></p>
+                    <div class="files-grid mt-3">
+                      
+                          <a href="https://framagit.org/bricolotech/lsynckey" target="_blank" class="file-item">
+                            <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
     </svg></div>
-                    <div class="flex-1">
-                      <div class="font-medium">gitlab (may not be up to date)</div>
-                      <div class="file-type">link</div>
+                            <div class="flex-1">
+                              <div class="font-medium">gitlab (may not be up to date)</div>
+                              <div class="file-type">link</div>
+                            </div>
+                          </a>
                     </div>
-                  </a>
-            </div>
+                  </div>
+                
+          
           </div>
+          
         
-      </div>
-      
-      <div class="card projet" id="connected-magnet">
-        <h3 class="text-2xl font-bold mb-4">Connected Magnet</h3>
-        
-        <div class="projet-meta">
-          <div><strong>Type :</strong> Workshop prototype</div>
-          <div><strong>Année :</strong> 2019</div>
-          <div><strong>Stack :</strong> ESP8266, Wi-Fi, breadboard, 3D print, Arduino, Heroku, MQTT, GitLab CI</div>
-          <div><strong>Rôle :</strong> Designer and workshop facilitator</div>
-        </div>
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Problème :</strong></p>
-          <p class="mt-2">Introduce IoT with a simple, autonomous connected object.</p>
-        </div>
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Solution :</strong></p>
-          <ul class="solution-list">
-            <li>Functional battery-powered prototype without soldering</li><li>3D-printed case, ESP8266 on mini breadboard</li><li>Used in a workshop with 12 Orange Business directors</li><li>Complete magnet with screen, Wi-Fi, battery, case, web interface for interaction</li><li>Automatic deployment of the entire environment on Heroku (hidden complexity)</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
-          <ul class="apprentissage-list">
-            <li>Gap between technical prototype and finished product expectations</li><li>Key role of mediation in innovation settings</li><li>3D design with OpenSCAD</li><li>Took much longer than planned but achieved a functional result</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="projet-visuel">
-          <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/connected_magnet.png" alt="Visuel Connected Magnet" loading="lazy">
-        </div>
-        
-        
-        
-          <div class="mt-6">
-            <p><strong class="text-lg">Fichiers et ressources :</strong></p>
-            <div class="files-grid mt-3">
-              
-                  <a href="https://framagit.org/apprensemble/connected_magnet" target="_blank" class="file-item">
-                    <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          
+          <div class="card projet" id="connected-magnet">
+          
+                <h3 class="text-2xl font-bold mb-4">Connected Magnet</h3>
+                <div class="projet-meta">
+                  <div><strong>Type :</strong> Workshop prototype</div>
+                  <div><strong>Année :</strong> 2019</div>
+                  <div><strong>Stack :</strong> ESP8266, Wi-Fi, breadboard, 3D print, Arduino, Heroku, MQTT, GitLab CI</div>
+                  <div><strong>Rôle :</strong> Designer and workshop facilitator</div>
+                </div>
+                <div class="mb-4">
+                  <p><strong class="text-lg">Problème :</strong></p>
+                  <p class="mt-2">Introduce IoT with a simple, autonomous connected object.</p>
+                </div>
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Solution :</strong></p>
+                  <ul class="solution-list">
+                    <li>Functional battery-powered prototype without soldering</li><li>3D-printed case, ESP8266 on mini breadboard</li><li>Used in a workshop with 12 Orange Business directors</li><li>Complete magnet with screen, Wi-Fi, battery, case, web interface for interaction</li><li>Automatic deployment of the entire environment on Heroku (hidden complexity)</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
+                  <ul class="apprentissage-list">
+                    <li>Gap between technical prototype and finished product expectations</li><li>Key role of mediation in innovation settings</li><li>3D design with OpenSCAD</li><li>Took much longer than planned but achieved a functional result</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="projet-visuel">
+                  <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/connected_magnet.png" alt="Visuel Connected Magnet" loading="lazy">
+                </div>
+                
+                
+                  <div class="mt-6">
+                    <p><strong class="text-lg">Fichiers et ressources :</strong></p>
+                    <div class="files-grid mt-3">
+                      
+                          <a href="https://framagit.org/apprensemble/connected_magnet" target="_blank" class="file-item">
+                            <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
     </svg></div>
-                    <div class="flex-1">
-                      <div class="font-medium">gitlab connected magnet</div>
-                      <div class="file-type">link</div>
-                    </div>
-                  </a>
-                  <a href="https://framagit.org/apprensemble/connected_magnet_webapp" target="_blank" class="file-item">
-                    <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <div class="flex-1">
+                              <div class="font-medium">gitlab connected magnet</div>
+                              <div class="file-type">link</div>
+                            </div>
+                          </a>
+                          <a href="https://framagit.org/apprensemble/connected_magnet_webapp" target="_blank" class="file-item">
+                            <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
     </svg></div>
-                    <div class="flex-1">
-                      <div class="font-medium">gitlab interface connected magnet</div>
-                      <div class="file-type">link</div>
-                    </div>
-                  </a>
-                  <a href="https://github.com/apprensemble/impression3D/blob/master/magnet/Boite.stl" target="_blank" class="file-item">
-                    <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <div class="flex-1">
+                              <div class="font-medium">gitlab interface connected magnet</div>
+                              <div class="file-type">link</div>
+                            </div>
+                          </a>
+                          <a href="https://github.com/apprensemble/impression3D/blob/master/magnet/Boite.stl" target="_blank" class="file-item">
+                            <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
       <path d="M8.5,13.5L11,16.5L14.5,12L19,18H5M21,19V5C21,3.89 20.1,3 19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19Z"/>
     </svg></div>
-                    <div class="flex-1">
-                      <div class="font-medium">3D case OpenSCAD</div>
-                      <div class="file-type">image</div>
-                    </div>
-                  </a>
-                  <a href="https://github.com/apprensemble/impression3D/blob/master/magnet/Couvercle.stl" target="_blank" class="file-item">
-                    <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <div class="flex-1">
+                              <div class="font-medium">3D case OpenSCAD</div>
+                              <div class="file-type">image</div>
+                            </div>
+                          </a>
+                          <a href="https://github.com/apprensemble/impression3D/blob/master/magnet/Couvercle.stl" target="_blank" class="file-item">
+                            <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
       <path d="M8.5,13.5L11,16.5L14.5,12L19,18H5M21,19V5C21,3.89 20.1,3 19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19Z"/>
     </svg></div>
-                    <div class="flex-1">
-                      <div class="font-medium">3D cover OpenSCAD</div>
-                      <div class="file-type">image</div>
-                    </div>
-                  </a>
-                  <a href="https://grillon.github.io/portfolio-sideprojects/gallery_proto_physiques_from_assets.html" target="_blank" class="file-item">
-                    <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <div class="flex-1">
+                              <div class="font-medium">3D cover OpenSCAD</div>
+                              <div class="file-type">image</div>
+                            </div>
+                          </a>
+                          <a href="https://grillon.github.io/portfolio-sideprojects/gallery_proto_physiques_from_assets.html" target="_blank" class="file-item">
+                            <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
     </svg></div>
-                    <div class="flex-1">
-                      <div class="font-medium">Photo gallery</div>
-                      <div class="file-type">link</div>
+                            <div class="flex-1">
+                              <div class="font-medium">Photo gallery</div>
+                              <div class="file-type">link</div>
+                            </div>
+                          </a>
                     </div>
-                  </a>
-            </div>
+                  </div>
+                
+          
           </div>
+          
         
-      </div>
-      
-      <div class="card projet" id="live-demos-and-free-presentations-(2017–2022)">
-        <h3 class="text-2xl font-bold mb-4">Live demos and free presentations (2017–2022)</h3>
-        
-        <div class="projet-meta">
-          <div><strong>Type :</strong> Conferences, workshops, webinars</div>
-          <div><strong>Année :</strong> 2017–2022</div>
-          <div><strong>Stack :</strong> Proxmox, Mailpile, Tor, VPN, DNS, Tailscale, Matrix, Syncthing…</div>
-          <div><strong>Rôle :</strong> Technical facilitator, demo host</div>
-        </div>
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Problème :</strong></p>
-          <p class="mt-2">Discover advanced open-source tools in a welcoming, informal setting for diverse audiences.</p>
-        </div>
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Solution :</strong></p>
-          <ul class="solution-list">
-            <li>Quick preparation of functional demos, often on imposed or new topics</li><li>Setup of complete network infrastructure: VMs, DNS, Tor services, VPN mesh</li><li>Real-time demos: Tor webmail, alternative SSO, etc.</li><li>Occasional use of slides, sometimes filmed or photographed</li><li>Open events, publicly announced</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="mb-4">
-          <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
-          <ul class="apprentissage-list">
-            <li>Rapid technical doc diving</li><li>Adapting level and format to audience</li><li>Teaching through proof and direct experience</li><li>Technical sharing is an act of presence, not just publication</li><li>Accepting uncertainty of reception</li>
-          </ul>
-        </div>
-        
-        
-        
-        <div class="projet-visuel">
-          <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/bricolotech.jpg" alt="Visuel Live demos and free presentations (2017–2022)" loading="lazy">
-        </div>
-        
-        
-        
-          <div class="mt-6">
-            <p><strong class="text-lg">Fichiers et ressources :</strong></p>
-            <div class="files-grid mt-3">
-              
-                  <a href="https://montpellibre.fr/" target="_blank" class="file-item">
-                    <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          
+          <div class="card projet" id="desktop-cluster">
+          
+                <h3 class="text-2xl font-bold mb-4">Desktop Cluster</h3>
+                <div class="projet-meta">
+                  <div><strong>Type :</strong> Physical prototype</div>
+                  <div><strong>Année :</strong> 2018</div>
+                  <div><strong>Stack :</strong> Heterogeneous hardware, local network, offloaded services</div>
+                  <div><strong>Rôle :</strong> Designer</div>
+                </div>
+                <div class="mb-4">
+                  <p><strong class="text-lg">Problème :</strong></p>
+                  <p class="mt-2">How to practically experiment with distributed architectures using recovered, non-homogeneous hardware.</p>
+                </div>
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Solution :</strong></p>
+                  <ul class="solution-list">
+                    <li>Creation of a cluster of machines with functional specialization per node</li><li>Public demonstration at the Science Festival</li><li>Handcrafted simulation of a distributed computing logic</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
+                  <ul class="apprentissage-list">
+                    <li>Adapting a project to strong hardware constraints</li><li>Abandoning remote display, pivoting to headless services</li><li>Formalizing a useful architecture with limited resources</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="projet-visuel">
+                  <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/proto_physiques/small_desktop_cluster_2018.jpg" alt="Visuel Desktop Cluster" loading="lazy">
+                </div>
+                
+                
+                  <div class="mt-6">
+                    <p><strong class="text-lg">Fichiers et ressources :</strong></p>
+                    <div class="files-grid mt-3">
+                      
+                          <a href="https://framagit.org/bricolotech/desktop-cluster" target="_blank" class="file-item">
+                            <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
     </svg></div>
-                    <div class="flex-1">
-                      <div class="font-medium">Montpel'libre</div>
-                      <div class="file-type">link</div>
+                            <div class="flex-1">
+                              <div class="font-medium">Original repository</div>
+                              <div class="file-type">link</div>
+                            </div>
+                          </a>
+                          <a href="https://framagit.org/bricolotech/desktop-cluster-sef" target="_blank" class="file-item">
+                            <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
+    </svg></div>
+                            <div class="flex-1">
+                              <div class="font-medium">Science Festival version</div>
+                              <div class="file-type">link</div>
+                            </div>
+                          </a>
                     </div>
-                  </a>
-            </div>
+                  </div>
+                
+          
           </div>
+          
         
-      </div>
-      
+          
+          <div class="card projet" id="live-demos-and-free-presentations-(2017–2022)">
+          
+                <h3 class="text-2xl font-bold mb-4">Live demos and free presentations (2017–2022)</h3>
+                <div class="projet-meta">
+                  <div><strong>Type :</strong> Conferences, workshops, webinars</div>
+                  <div><strong>Année :</strong> 2017–2022</div>
+                  <div><strong>Stack :</strong> Proxmox, Mailpile, Tor, VPN, DNS, Tailscale, Matrix, Syncthing, desktop-cluster...</div>
+                  <div><strong>Rôle :</strong> Technical facilitator, demo host</div>
+                </div>
+                <div class="mb-4">
+                  <p><strong class="text-lg">Problème :</strong></p>
+                  <p class="mt-2">Discover advanced open-source tools in a welcoming, informal setting for diverse audiences.</p>
+                </div>
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Solution :</strong></p>
+                  <ul class="solution-list">
+                    <li>Quick preparation of functional demos, often on imposed or new topics</li><li>Setup of complete network infrastructure: VMs, DNS, Tor services, VPN mesh</li><li>Real-time demos: Tor webmail, alternative SSO, etc.</li><li>Occasional use of slides, sometimes filmed or photographed</li><li>Open events, publicly announced</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="mb-4">
+                  <p><strong class="text-lg">Ce que j'ai appris :</strong></p>
+                  <ul class="apprentissage-list">
+                    <li>Rapid technical doc diving</li><li>Adapting level and format to audience</li><li>Teaching through proof and direct experience</li><li>Technical sharing is an act of presence, not just publication</li><li>Accepting uncertainty of reception</li>
+                  </ul>
+                </div>
+                
+                
+                <div class="projet-visuel">
+                  <img src="https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/bricolotech.jpg" alt="Visuel Live demos and free presentations (2017–2022)" loading="lazy">
+                </div>
+                
+                
+                  <div class="mt-6">
+                    <p><strong class="text-lg">Fichiers et ressources :</strong></p>
+                    <div class="files-grid mt-3">
+                      
+                          <a href="https://montpellibre.fr/" target="_blank" class="file-item">
+                            <div class="file-icon"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
+    </svg></div>
+                            <div class="flex-1">
+                              <div class="font-medium">Montpel'libre</div>
+                              <div class="file-type">link</div>
+                            </div>
+                          </a>
+                    </div>
+                  </div>
+                
+          
+          </div>
+          
+        
     </section>
 
     
