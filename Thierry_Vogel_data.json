@@ -5,6 +5,39 @@
   "galerie": [],
   "projets": [
     {
+      "titre": "CoreMLX – Phase 1",
+      "type": "Socle IA open source",
+      "annee": "2025",
+      "stack": "FastAPI, Llama.cpp, Bash, Python, Streamlit",
+      "role": "Concepteur fullstack",
+      "probleme": "L’IA est partout, mais son fonctionnement reste opaque pour la majorité. Peu d’outils permettent de montrer concrètement comment elle s’exécute, s’architecture, se connecte à un système réel. La plupart masquent les rouages sous des abstractions ou des services cloud fermés.",
+      "solution": [
+        "Base locale lisible et modulaire, organisée par phases",
+        "Phase 1 : chatbot minimal via FastAPI, modèle LLM local (llama.cpp), et interface Streamlit",
+        "Scripts reproductibles et documentation pas à pas pour ancrage pédagogique",
+        "Prépare l’extension vers CI/CD, observabilité, interchangeabilité des modèles, RAG, fine-tuning"
+      ],
+      "apprentissage": [
+        "Clarification des articulations backend ↔ modèle ↔ interface",
+        "Refonte CI minimale sans cloud, pensée pour phase suivante",
+        "Structuration d’un socle extensible dans un environnement contraint",
+        "Diffusion publique avec vidéo, slides, dépôt open source : validation complète d’une phase projet"
+      ],
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/phase1_garde_coremlx.png",
+      "files": [
+        {
+          "url": "https://youtu.be/7Kb_3M7986I",
+          "label": "Vidéo de présentation",
+          "type": "youtube"
+        },
+        {
+          "url": "https://github.com/grillon/CoreMLX",
+          "label": "Code source sur GitHub",
+          "type": "link"
+        }
+      ]
+    },
+    {
       "titre": "WallEx",
       "type": "MVP personnel",
       "annee": "2024",

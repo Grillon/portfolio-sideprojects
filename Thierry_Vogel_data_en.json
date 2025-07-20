@@ -5,6 +5,39 @@
   "galerie": [],
   "projets": [
     {
+      "titre": "CoreMLX – Phase 1",
+      "type": "Open-source AI infrastructure",
+      "annee": "2025",
+      "stack": "FastAPI, Llama.cpp, Bash, Python, Streamlit",
+      "role": "Fullstack designer",
+      "probleme": "AI is everywhere, yet its inner workings remain opaque to most.",
+      "solution": [
+        "Local, readable, modular base, structured by phases",
+        "Phase 1: minimal chatbot using FastAPI, local LLM via llama.cpp, and a Streamlit interface",
+        "Step-by-step scripts and documentation to serve as a teaching scaffold",
+        "Designed for future expansion: CI/CD, observability, model interchange, RAG, fine-tuning"
+      ],
+      "apprentissage": [
+        "Clarified the backend ↔ model ↔ interface interaction",
+        "Rebuilt a minimal CI mindset without cloud dependencies",
+        "Structured an extensible base under tight technical constraints",
+        "Public release with code, video, and slides: full delivery of a first project phase"
+      ],
+      "visuel": "https://raw.githubusercontent.com/Grillon/portfolio-sideprojects/refs/heads/main/assets/pictures/phase1_garde_coremlx.png",
+      "files": [
+        {
+          "url": "https://youtu.be/7Kb_3M7986I",
+          "label": "Presentation video",
+          "type": "youtube"
+        },
+        {
+          "url": "https://github.com/grillon/CoreMLX",
+          "label": "Source code on GitHub",
+          "type": "link"
+        }
+      ]
+    },
+    {
       "titre": "WallEx",
       "type": "Personal MVP",
       "annee": "2024",
